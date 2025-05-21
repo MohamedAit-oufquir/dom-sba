@@ -1,5 +1,12 @@
-// Cache elements
+
+
+
+// Cache at least one element using selectElementById. 5%
+
 const title = document.getElementById("title");
+
+// Cache at least one element using querySelector or querySelectorAll. 5%
+
 const toggleBtn = document.querySelector("#toggleBtn");
 const output = document.getElementById("output");
 

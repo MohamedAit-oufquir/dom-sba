@@ -6,12 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-
-
 </head>
 <body>
-    Hello world
-hello world 2
+    <h1>Task List</h1>
+    <div class="form-container">
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Enter a task" required minlength="3">
+            <button type="submit">Add Task</button>
+        </form>
+        <div id="errorMessage" class="error"></div>
+    </div>
+    <ul id="taskList"></ul>
 
 </body>
 </html>
